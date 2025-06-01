@@ -1,6 +1,6 @@
 {% set python_min = '3.11' %}
 {%- set name = "bobleesj.utils" -%}
-{%- set version = "0.0.1" -%}
+{%- set version = "0.0.2" -%}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/bobleesj_utils/bobleesj_utils-{{ version }}.tar.gz
-  sha256: 469fd9004b472229afa389414cbf49bea986f75b038e714b4b70cff18a4e90f5
+  sha256: a51e29549c62bd0f40a4004a71536ab7cc8e20c58e591972247407aaf08a7778
 
 build:
   noarch: python
