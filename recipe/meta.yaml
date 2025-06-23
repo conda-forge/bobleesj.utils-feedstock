@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/b/bobleesj_utils/bobleesj_utils-{{ version }}.tar.gz
-  sha256: 4345370dfb5e5c52c26e56bfb28c30a04117050f8faf311a2aab13865ef80c29
+  sha256: 0b4fc477670b21bf347209783b91c5154ed8b0ff89d7f60d40a6354e588bb224
 
 build:
   noarch: python
