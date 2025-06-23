@@ -1,6 +1,6 @@
 {% set python_min = '3.11' %}
 {%- set name = "bobleesj.utils" -%}
-{%- set version = "0.0.3" -%}
+{%- set version = "0.0.5" -%}
 
 package:
   name: {{ name|lower }}
